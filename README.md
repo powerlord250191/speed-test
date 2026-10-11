@@ -7,7 +7,7 @@
 
 Тестовое задание для вакансии Python Developer (AD Robot).
 
-[![CI](https://github.com/<your-username>/speed-test/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/speed-test/actions/workflows/ci.yml)
+[![CI](https://github.com/powerlord250191/speed-test.git/actions/workflows/ci.yml/badge.svg)](https://github.com/powerlord250191/speed-test/actions/workflows/ci.yml)
 
 ## Что делает
 
@@ -32,7 +32,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/<your-username>/speed-test.git
+git clone https://github.com/powerlord250191/speed-test.git
 cd speed-test
 
 
@@ -46,12 +46,12 @@ pip install -r requirements.txt
 Базовый сценарий — 10 запросов к большой картинке:
 
 ```bash
-python speed_test.py https://upload.wikimedia.org/wikipedia/commons/3/3d/LARGE_elevation.jpg
+python speed_test.py https://disk.yandex.ru/i/8DnyUWfGggE6XA
 ```
 На тестовом файле побольше (рекомендуется для честного замера):
 
 ```bash
-python speed_test.py https://speed.hetzner.de/100MB.bin
+python speed_test.py https://disk.yandex.ru/i/8DnyUWfGggE6XA
 ```
 Параметры:
 
@@ -70,7 +70,7 @@ url               —        URL тяжёлого ресурса.
 Пример с 5 запросами и таймаутом 15 секунд:
 
 ```bash
-python speed_test.py https://speed.hetzner.de/100MB.bin -n 5 -t 15
+python speed_test.py https://disk.yandex.ru/i/8DnyUWfGggE6XA -n 5 -t 15
 ```
 Пример вывода:
 ## text
