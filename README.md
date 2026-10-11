@@ -7,7 +7,7 @@
 
 Тестовое задание для вакансии Python Developer (AD Robot).
 
-[![CI](https://github.com/powerlord250191/speed-test.git/actions/workflows/ci.yml/badge.svg)](https://github.com/powerlord250191/speed-test/actions/workflows/ci.yml)
+[![CI](https://github.com/powerlord250191/speed-test/actions/workflows/ci.yml)
 
 ## Что делает
 
